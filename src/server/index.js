@@ -9,7 +9,7 @@ const { Pool } = require("pg")
 
 const pool = new Pool({
     // database: 'react'
-    connectionString: process.env.DATABASE_URL,
+    connectionString: process.env.DATABASE,
     ssl: {
         rejectUnauthorized: false,
     },
